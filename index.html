@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prototype Cockpit | dSights</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap");
+    </style>
+    <link rel="icon" href="./images/titlelogo.png" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-sm navbar-light"
+      style="background-color: #202631"
+    >
+      <a class="navbar-brand" href="#">
+        <img src="./images/logo.png" width="100" height="30" alt="" />
+      </a>
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarMenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="mailto: info@dsightsonline.com " class="nav-link"
+              ><i
+                class="fa fa-envelope"
+                style="color: #caccc5; font-size: 20px"
+              ></i>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://www.dsightsonline.com/" class="nav-link"
+              ><i class="fa fa-home" style="color: #caccc5; font-size: 25px"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- COROUSEL -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./images/3.jpg" alt="First slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: #202631">Welcome to Prototype Cockpit</h5>
+            <p style="color: #202631">
+              Discover the prototypes for various projects
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/4.jpg" alt="Second slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: #81848a">Churn Model</h5>
+            <p style="color: #81848a">
+              A machine learning solution to predict the likelihood of churn
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./images/5.jpg" alt="Third slide" />
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: #81848a">Usage Model</h5>
+            <p style="color: #81848a">
+              A machine learning solution to predict the likelihood of usage
+            </p>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+    <!-- EXHIBITS SECTION -->
+    <div>
+      <h1 class="exhibitHeader">Our Exhibits</h1>
+    </div>
+    <h6 class="exhibitHeader" style="margin-top: 10px; color: #b5bab6">
+      Case Studies and Protopype Solutions.
+    </h6>
+    <!-- CHURN MODEL -->
+    <div
+      class="container"
+      data-aos="fade-left"
+      style="margin-top: 60px; margin-bottom: 80px"
+    >
+      <div
+        class="row"
+        style="
+          box-shadow: 5px 10px 18px #888888;
+          padding: 10px 10px;
+          border-radius: 15px;
+        "
+      >
+        <div
+          class="col-md-3 col-sm-12"
+          style="
+            background-color: #202631;
+            height: 300px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+          "
+        >
+          <h1 style="color: #caccc5; text-align: center; margin-top: 100px">
+            Churn Model
+          </h1>
+          <br />
+          <button
+            style="
+              background-color: #cf235e;
+              margin-top: 50px;
+              margin-left: 22%;
+            "
+            type="button"
+            class="button"
+          >
+            Solution Demo
+          </button>
+        </div>
+        <div
+          class="col-md-9 col-sm-12"
+          style="
+            background-color: #ebeae8;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+          "
+        >
+          <div class="row" style="margin-top: 40px; margin-left: 10px">
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/1.jpg" />
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/2.jpg" />
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/3.jpg" />
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/4.jpg" />
+            </div>
+          </div>
+          <div class="row" style="margin-top: 20px; margin-left: 10px">
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/5.jpg" />
+            </div>
+            <div class="col-md-1 col-sm-0"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/1.jpg" />
+            </div>
+            <div class="col-md-1 col-sm-0"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/2.jpg" />
+            </div>
+            <div class="col-md-1 col-sm-0"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- USAGE MODEL -->
+    <div class="container" style="margin-bottom: 80px" data-aos="fade-right">
+      <div
+        class="row"
+        style="
+          box-shadow: 5px 10px 18px #888888;
+          padding: 10px 10px;
+          border-radius: 15px;
+        "
+      >
+        <div
+          class="col-md-3 col-sm-12"
+          style="
+            background-color: #202631;
+            height: 300px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+          "
+        >
+          <h1 style="color: #caccc5; text-align: center; margin-top: 100px">
+            Usage Model
+          </h1>
+          <br />
+          <button
+            style="
+              background-color: #cf235e;
+              margin-top: 50px;
+              margin-left: 22%;
+            "
+            type="button"
+            class="button"
+          >
+            Solution Demo
+          </button>
+        </div>
+        <div
+          class="col-md-9 col-sm-12"
+          style="
+            background-color: #ebeae8;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+          "
+        >
+          <div class="row" style="margin-top: 40px; margin-left: 10px">
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/1.jpg" />
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/2.jpg" />
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/3.jpg" />
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/4.jpg" />
+            </div>
+          </div>
+          <div class="row" style="margin-top: 20px; margin-left: 10px">
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/5.jpg" />
+            </div>
+            <div class="col-md-1 col-sm-0"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/1.jpg" />
+            </div>
+            <div class="col-md-1 col-sm-0"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/2.jpg" />
+            </div>
+            <div class="col-md-1 col-sm-0"></div>
+            <div class="col-md-2 col-sm-4 col-xs-4 zoom">
+              <img style="height: 100px; width: 150px" src="./images/3.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 90, duration: 1000 });
+    </script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
